@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Молодёжный центр</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- Страница сайта "Главная" - Landing Page - index.html -->
+
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header__wrap">
+                <a href="index.html" class="logo" data-aos="flip-left" data-aos-duration="1000"><img src="img/logo.png"
+                        alt="Молодёжный центр"></a>
+                <input type="checkbox" name="hamburger" id="toggle__menu">
+                <label for="toggle__menu" class="menu__btn">
+                    <span></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html" class="linkActive">Главная</a></li>
+                    <li><a href="events.html">Мероприятия</a></li>
+                    <li><a href="search.html">Детские кружки</a></li>
+                    <li><a href="form.html">Активистам</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <!-- Информация о предприятии -->
+        <main class="main">
+            <div class="container">
+                <div class="main__wrap" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="main__block">
+                        <h1 class="main__title">Куда пойти? Чем заняться? <br> Вот главный вопрос жителей <br> Старого
+                            Заинска.
+                        </h1>
+                        <br>
+                        <hr><br>
+                        <p><b>МОЛОДЕЖНЫЙ ЦЕНТР!</b> <br> Здесь каждый найдет занятие для себя. Без возрастных
+                            ограничений.
+                            <br><i>"Мы молодежь 21 века, всегда и везде мы добъёмся успеха!"</i>
+                        </p>
+                    </div>
+                    <div class="main__pic">
+                        <img src="img/bg.jpg" alt="bg">
+                    </div>
+                </div>
+                <h2 class="title">О нас</h2>
+                <p class="main__txt">МБУ «Молодежный центр» Заинского муниципального района Республики Татарстан
+                    осуществляет деятельность спортивных объектов Заинского муниципального района РТ, предоставляет
+                    услуги по регулированию и содействию эффективному ведению экономической деятельности предприятий
+                    Заинского муниципального района РТ.</p>
+                <h2 class="title">Отзывы</h2>
+                <div class="reviews__wrap">
+                    <div class="reviews__block" data-aos="zoom-in-right" data-aos-duration="1000">
+                        <img src="img/pic1.jpg" alt="pic1">
+                        <h3>Глеб Калимуллин</h3>
+                        <p>Заинский "Молодежный центр" – это место, где ты найдешь друзей на всю жизнь!</p>
+                    </div>
+                    <div class="reviews__block" data-aos="zoom-in" data-aos-duration="1000">
+                        <img src="img/pic2.jpg" alt="pic2">
+                        <h3>Николай Расторгуев</h3>
+                        <p>Здесь тебе будет не скучно, потому что мы часто ездим на планерки и проводим мероприятия!</p>
+                    </div>
+                    <div class="reviews__block" data-aos="flip-left" data-aos-duration="1000">
+                        <img src="img/pic3.jpg" alt="pic3">
+                        <h3>Раиль Рахимов</h3>
+                        <p>Дружелюбный коллектив, всегда помогут и поддержат в трудную минуту</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Секция сайта "Форма поиска кружка" -->
+        <section class="form">
+            <div class="container">
+                <div class="form__wrap">
+                    <form action="search.html" method="get">
+                        <h3 class="form__title">Форма поиска кружка</h3>
+                        <label>Выбор кружка и секции:</label>
+                        <select name="section">
+                            <option>Хореография</option>
+                            <option>Шахматно-шашечный кружок</option>
+                            <option>Стрелковый клуб</option>
+                            <option>Прикладное искусство</option>
+                            <option>Музыкальный кружок</option>
+                            <option>Кружок радиосвязи</option>
+                        </select>
+                        <button type="submit" class="btn">Поиск</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Секция сайта "Мероприятия" -->
+        <section class="events">
+            <div class="container">
+                <h2 class="title">Мероприятия</h2>
+                <div class="events__wrap">
+                    <div class="events__block" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="img/1.jpg" alt="img">
+                        <div class="events__info">
+                            <h3>«В мире кино»</h3>
+                            <p>Сегодня в Молодёжном центре для воспитанников прошла познавательно – развлекательная игра
+                                «В
+                                мире кино»</p>
+                            <form action="events.html" method="get">
+                                <button type="submit" class="btn__link">Подробнее</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="events__block" data-aos="fade-right" data-aos-duration="1250">
+                        <img src="img/2.jpg" alt="img">
+                        <div class="events__info">
+                            <h3>Национальные культуры и традиции</h3>
+                            <p>К году Национальных культур и традиций в столярной мастерской Молодежного центра, ребята
+                                смастерили музыкальный инструмент - Трещотка.
+                            </p>
+                            <form action="events.html" method="get">
+                                <button type="submit" class="btn__link">Подробнее</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="events__block" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="img/3.jpg" alt="img">
+                        <div class="events__info">
+                            <h3>Сессия здоровья!</h3>
+                            <p>В рамках проекта «Сессия здоровья» в Молодежном центре подростки участвовали в квесте на
+                                спортивные темы от Минмол Тимс.</p>
+                            <form action="events.html" method="get">
+                                <button type="submit" class="btn__link">Подробнее</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Подвал сайта -->
+        <footer class="footer">
+            <div class="container">
+                <hr>
+                <div class="footer__wrap">
+                    <p><b>Адрес:</b> г.Заинск, ул.Орджоникидзе, д.49</p>
+                    <p><b>Телефон:</b> <a href="tel:+78555866148">+7 (855) 586-61-48</a></p>
+                    <p><b>E-Mail:</b> <a href="mail:molodezhnyycentr.mbu@mail.ru">molodezhnyycentr.mbu@mail.ru</a></p>
+                    <p><a href="https://vk.com/club84921645" target="_blank"><img src="img/vk.png" class="icon"
+                                alt="vk"></a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

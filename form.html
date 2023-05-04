@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Молодёжный центр</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- Страница сайта "Активистам" - Landing Page - form.html -->
+
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header__wrap">
+                <a href="index.html" class="logo" data-aos="flip-left" data-aos-duration="1000"><img src="img/logo.png"
+                        alt="Молодёжный центр"></a>
+                <input type="checkbox" name="hamburger" id="toggle__menu">
+                <label for="toggle__menu" class="menu__btn">
+                    <span></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="events.html">Мероприятия</a></li>
+                    <li><a href="search.html">Детские кружки</a></li>
+                    <li><a href="form.html" class="linkActive">Активистам</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <!-- Форма записи на детские кружки -->
+        <section class="form">
+            <div class="container">
+                <div class="form__wrap" data-aos="fade-right" data-aos-duration="1000">
+                    <form action="search.html">
+                        <h3><i>Записаться на кружок</i></h3>
+                        <label>Понравившийся кружок:</label>
+                        <select name="section">
+                            <option>Хореография</option>
+                            <option>Шахматно-шашечный кружок</option>
+                            <option>Стрелковый клуб</option>
+                            <option>Прикладное искусство</option>
+                            <option>Музыкальный кружок</option>
+                            <option>Кружок радиосвязи</option>
+                        </select>
+                        <label>Имя и фамилия:</label>
+                        <input type="text" placeholder="Введите ваше имя" required>
+                        <input type="text" placeholder="Введите вашу фамилию" required>
+                        <label>Дата рождения:</label>
+                        <input type="date" required>
+                        <label>Телефон:</label>
+                        <input type="tel" id="phone" placeholder="Введите ваш телефон" required>
+                        <button type="submit" class="formBtn">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
